@@ -1,0 +1,18 @@
+<form [formGroup]="answerForm" (ngSubmit)="submit()">
+ 
+ <div *ngFor="let que of question ;let j = index ">
+     <table>
+         <tr>
+            <p> {{que.Question}} </p>
+                 <div>
+                     <div *ngFor="let ans of que.option;let i = index ">
+                         <input type="radio" [id]="'answer'+j" formControlName ="answer{{j}}" [value]="ans" > {{ans}}
+                     </div>
+                 </div>
+        </tr>
+     </table>
+                <br>
+ </div>
+            <button type="submit" class="btn btn-primary" value="submit">Submit</button>
+          
+</form>

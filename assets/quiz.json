@@ -1,0 +1,12 @@
+[
+    {"Question":"(1)In which Year Ashaqui-2 movie relesed..?",
+     "option" : ["2011" , "2012", "2013", "2014"],
+     "answer" : "(3) 2013"
+    },
+
+    {"Question":"(2)Who is the hero of Ashaqui-2..?",
+     "option" : ["Aditya Roy" , "Rahul", "Rj", "Roy kapur"],
+     "answer" : "(1) Aditya Roy"
+    }
+
+]
